@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Wishes by HA</title>
+   
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="UTF-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<!------body----->
+<body>
+    <!------header----->
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="navbar.html"> <img src="logo.png" width="125px"></a> 
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li>
+                        <a href="navbar.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a class="sub-btn">Somthing else <i class="fas fa-angle-down dropdown"></i></a>
+                        <div class="sub-menu">
+                            <div class="sub-item">
+                            <a class="sub-btn" ><i class="fas fa-film"></i> Trailer <i class="fas fa-angle-down dropdown"></i></a>
+                            <div class="sub-menu">
+                                <a href="https://www.youtube.com/watch?v=i3OF4u8NOGw" target="bank1" class="sub-item"><i class="fab fa-youtube"></i> Season 1 </a>
+                                <a href="https://www.youtube.com/watch?v=pI2DREgSnV0" target="bank2" class="sub-item"><i class="fab fa-youtube"></i> Season 2  </a>
+                                <a href="https://www.youtube.com/watch?v=KYe-YkOSomg" target="bank3" class="sub-item"><i class="fab fa-youtube"></i> Season 3  </a>
+                            </div>
+                            </div>
+                            <a href="#" class="sub-item"><i class="fas fa-envelope-open-text"></i> Contact </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="account.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="src/moon.png" id="icon">
+            <div class="menu-icon">
+                <i class="fas fa-bars" onclick="menutoggle()"></i>
+            </div>    
+        </div>
+    </header>
+<!------container----->
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <h1><span> A </span> Discovery <span> Of</span><br>Witches</h1>
+                <p>It begins with absence and desire
+                    <br>
+                    It begins with blood and fear
+                    <br>
+                    It begins with ....
+                    <br>
+                    A discovery of witches
+                </p>
+
+                <div class="watch">
+                    <a href="" target="bank"> Watch Now</a>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <img src="src/discovery.png" class="discovery-img">
+            </div>
+        </div>
+    </div>
+   <!-- books categories-->
+   <section class="books">
+       <div class="books-categories">
+           <div class="title-style text-center">
+           <h2>The All Souls Series</h2>
+        </div>
+       </div>
+
+   <div class="categories">
+       <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="src/book1.jpg">
+                <div class="accordien">
+                    <div class="contentBx">
+                    <h5 class="accordien_title"></i>More</h5>
+                    <div class="accordien_content" style="display: block;">
+                     <p>For witches are not the only otherworldly creatures living alongside humans. 
+                        There are also creative, destructive daemons and long-lived vampires who become interested in the witch’s discovery. 
+                        They believe that the manuscript contains important clues about the past and the future, 
+                        and want to know how Diana Bishop has been able to get her hands on the elusive volume. 
+                        Chief among the creatures who gather around Diana is vampire Matthew Clairmont, a geneticist with a passion for Darwin. 
+                        Together, Diana and Matthew embark on a journey to understand the manuscript’s secrets. 
+                        But the relationship that develops between the ages-old vampire and the spellbound witch threatens to unravel the fragile peace 
+                        that has long existed between creatures and humans—and will certainly transform Diana’s world as well.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+             <img src="src/book2.jpg">
+             <div class="accordien">
+                <div class="contentBx">
+                <h5 class="accordien_title"></i>More</h5>
+                <div class="accordien_content" style="display: block;">
+                 <p>Book Two of the All Souls Trilogy plunges Diana and Matthew into  Elizabethan London, 
+                    a world of spies and subterfuge, and a coterie of Matthew’s old friends, the mysterious School of Night.  
+                    The mission is to locate a witch to tutor  Diana and to find traces of Ashmole 782, 
+                    but as the net of Matthew’s past tightens around them they embark on a very different journey,
+                    one that takes them into heart of the 1,500 year old vampire’s shadowed history and secrets.
+                    For Matthew Clairmont, time travel is no simple matter; nor is Diana’s search for the key to understanding her legacy. 
+                    Shadow of Night brings us a rich and splendid tapestry of alchemy, magic, and history, taking us through the loop of time to deliver a deepening love story, 
+                    a tale of blood, passion, and the knotted strands of the past.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="src/book3.jpg">
+                <div class="accordien">
+                    <div class="contentBx">
+                    <h5 class="accordien_title"></i>More</h5>
+                    <div class="accordien_content" style="display: block;">
+                     <p>But the real threat to their future has yet to be revealed, and when it is, the search for Ashmole 782 and its missing pages takes on even more urgency. 
+                        In the trilogy’s final volume, Harkness deepens her themes of power and passion, family and caring, past deeds and their present consequences. 
+                        In ancestral homes and university laboratories, using ancient knowledge and modern science, from the hills of the Auvergne to the palaces of Venice and beyond,
+                        the couple at last learn what the witches discovered so many centuries ago. With more than one million copies sold in the United States and appearing in thirty-eight foreign editions,
+                        A Discovery of Witches and Shadow of Night have landed on all of the major bestseller lists and garnered rave reviews from countless publications. Eagerly awaited by Harkness’s legion of fans,
+                       The Book of Life brings this superbly written series to a deeply satisfying close.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img src="src/book4.jpg">
+                <div class="accordien">
+                    <div class="contentBx">
+                    <h5 class="accordien_title"></i>More</h5>
+                    <div class="accordien_content" style="display: block;">
+                     <p>On the battlefields of the American Revolution, Matthew de Clermont meets Marcus MacNeil, 
+                     a young surgeon from Massachusetts, during a moment of political awakening when it seems that the world is on the brink of a brighter future. 
+                     When Matthew offers him a chance at immortality and a new life, free from the restraints of his puritanical upbringing, 
+                     Marcus seizes the opportunity to become a vampire. But his transformation is not an easy one and the ancient traditions 
+                     and responsibilities of the de Clermont family clash with Marcus’s deeply-held beliefs in liberty, equality, and brotherhood.<br>
+                     <br>A passionate love story and a fascinating exploration of the power of tradition and the possibilities for change, 
+                     Time’s Convert will delight fans of the All Souls trilogy and all readers of magic, the supernatural, and romance.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+        <!-- tv categories-->
+    <section class="tv">
+        <div class="tv-categories">
+           <div class="title-style text-center">
+            <h2>A DISCOVERY OF WITCHES</h2>
+          </div>
+          <p class="quotes"><strong>
+            Once the world was full of wonders, but it belongs to humans now.
+            <br>We creatures have all but disappeared.<br>
+            Demons, vampires and witches, hiding in plain sight, fearful of discovery, ill at ease, even with each other.
+        </strong></p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="src/s1.jpg">
+                    <h4> Season 1</h4>
+                    <br>
+                    <p>Diana Bishop, historian and witch, accesses Ashmole 782 and knows she must solve its mysteries.
+                        She is offered help by the enigmatic Matthew Clairmont, 
+                        but he's a vampire and witches should never trust vampires.
+                    </p>
+                    <br>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <img src="src/s2.jpg">
+                    <h4> Season 2</h4>
+                    <br>
+                    <p>Season 2 opens with Matthew (Matthew Goode) and Diana (Teresa Palmer) on the streets of Elizabethan London, 
+                       where they are hiding in time from the Congregation. 
+                       Here in Elizabethan London they must find a powerful witch teacher to help Diana control her magic 
+                       and search for the elusive Book of Life
+                    </p>
+                    <br>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="small-container">
+            <div class="image">
+                <img src="src/photo.png" >
+            </div>
+        </div>
+    </section>
+    <!------brands----->
+    <section>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="src/logo1.png">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="src/logo2.png">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="src/logo3.png">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="src/logo4.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div> 
+<!------footer----->
+<footer>
+        <div class="footer-container">
+            <div class="footer-col-1">
+                <h5>Follow Us</h5>
+                    <ul>
+                        <li><i class="fab fa-facebook"></i>  Facebook</li>
+                        <li><i class="fab fa-twitter"></i>  Twitter</li>
+                        <li><i class="fab fa-instagram"></i>  Instagram</li>
+                    </ul>
+            </div>
+            <hr>
+            <p class="Copyright">
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous les droits sont réservés | HA
+                </p>
+        </div>
+</footer>
+
+<!------Script----->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+         //jquery for toggle menus
+         $('.sub-btn').click(function(){
+            $(this).next('.sub-menu').slideToggle();
+            $(this).find('.dropdown').toggleClass('rotate');
+         });
+        });
+
+        // mode sombre
+        var icon = document.getElementById("icon");
+         icon.onclick = function(){
+         document.body.classList.toggle("dark-theme");
+         if(document.body.classList.contains("dark-theme")){
+             icon.src="src/sun.png";
+         }else{
+             icon.src="src/moon.png"
+            }
+        }
+        const accordien = document.getElementsByClassName('contentBx');
+        for (i=0; i<accordien.length; i++){
+         accordien[i].addEventListener('click', function(){
+            this.classList.toggle('active')
+         });
+        }
+        //js for toggle menubar
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px") 
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
